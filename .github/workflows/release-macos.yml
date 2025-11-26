@@ -1,9 +1,9 @@
 name: Build macOS Release Artifacts
 
 on:
-  schedule:
-    # Run daily at 7am PT (3pm UTC during standard time, 2pm UTC during daylight saving)
-    - cron: "0 14 * * *"
+  # schedule:
+  #   # Run daily at 7am PT (3pm UTC during standard time, 2pm UTC during daylight saving)
+  #   - cron: "0 14 * * *"
 
   push:
     tags:
